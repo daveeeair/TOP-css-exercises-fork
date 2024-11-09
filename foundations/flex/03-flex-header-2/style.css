@@ -46,3 +46,41 @@ a {
 ul {
   list-style-type: none;
 }
+
+/* following are my changes */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 8px;
+}
+
+.logo {
+  margin: 8px;
+}
+
+.profile-image {
+  margin: 8px;
+}
+
+button {
+  margin: 8px;
+}
+
+.beginning {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.end {
+  display: flex;
+  justify-content: flex-end;  
+  align-items: center;
+}
