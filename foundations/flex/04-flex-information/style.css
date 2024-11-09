@@ -24,3 +24,25 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+/* here comes changes */
+
+.title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+
+.items {
+  display: flex;
+  justify-content: center;
+}
+
+.barberry,.chilli,.pepper,.saffron {
+  margin: 26px;
+  width: 200px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  text-align: center;
+}
